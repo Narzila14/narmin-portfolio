@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Makes People Happy in Bulgaria? · Narmin Musayeva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topnav">
+  <a href="../index.html#about" class="topnav-brand">Narmin Musayeva</a>
+  <nav class="topnav-links" aria-label="Section navigation">
+    <a href="../index.html#about" class="nav-link">About</a>
+    <a href="../index.html#experience" class="nav-link">Experience</a>
+    <a href="../index.html#education" class="nav-link">Education</a>
+    <a href="../index.html#skills" class="nav-link">Skills</a>
+    <a href="index.html" class="nav-link active">Projects</a>
+  </nav>
+  <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+</header>
+
+<main id="main">
+  <section class="section project-page">
+    <a href="index.html" class="back-link">← All projects</a>
+    <p class="eyebrow">A CV tells you what I did. Here's a look at how I think.</p>
+    <h1 class="project-title">What Makes People Happy in Bulgaria?</h1>
+    <p class="case-scope">Business Research Methods · SPSS · Logistic Regression · Factor Analysis</p>
+    <span class="group-label">Group Research Project · KU Leuven</span>
+
+    <p class="case-desc project-intro">
+      Using data from 1,558 respondents in the 2017 European Values Study, we examined whether
+      life satisfaction, trust, education, age and gender were associated with the likelihood of
+      reporting being happy in Bulgaria.
+    </p>
+
+    <div class="method-card">
+      <p class="case-tag">Model Performance</p>
+      <p>1,110 observations used in the regression · 70.5% overall classification accuracy · 93.4% sensitivity · ROC AUC = 0.711</p>
+    </div>
+
+    <div class="demo" id="translate-demo">
+      <div class="demo-label">See it in action: real results from this project, translated</div>
+      <div class="demo-examples" role="tablist" aria-label="Choose a finding">
+        <button type="button" class="chip active" data-example="satisfaction">Life satisfaction</button>
+        <button type="button" class="chip" data-example="relationships">Close relationships</button>
+        <button type="button" class="chip" data-example="agedu">Age &amp; education</button>
+        <button type="button" class="chip" data-example="nomatter">What didn't matter</button>
+        <button type="button" class="chip" data-example="bigpicture">Big picture</button>
+      </div>
+      <div class="demo-toggle" role="group" aria-label="Switch framing">
+        <button type="button" class="demo-btn active" data-mode="raw">The data</button>
+        <button type="button" class="demo-btn" data-mode="plain">In plain English</button>
+      </div>
+      <div class="demo-panel">
+        <p class="demo-text" id="demo-text"></p>
+        <p class="demo-takeaway" id="demo-takeaway"></p>
+      </div>
+    </div>
+
+    <div class="view-tabs" role="tablist" aria-label="Chart selector">
+      <button type="button" class="view-tab active" data-view="age">By age</button>
+      <button type="button" class="view-tab" data-view="education">By education</button>
+      <button type="button" class="view-tab" data-view="satisfaction">By life satisfaction</button>
+      <button type="button" class="view-tab" data-view="trust">By close-relationship trust</button>
+      <button type="button" class="view-tab" data-view="regression">Regression results</button>
+    </div>
+    <p class="interactive-hint">These charts are interactive. Click a tab above to switch views, and hover over a legend label or bar to see more detail.</p>
+
+    <div class="chart-view" id="view-age">
+      <div class="chart-wrap">
+        <canvas id="ageChart" height="260" role="img" aria-label="Share of respondents reporting happy, by age group"></canvas>
+      </div>
+      <p class="chart-note">Computed directly from the dataset. Respondents aged 15–29 were far more likely to report being happy than those 50 and older.</p>
+    </div>
+
+    <div class="chart-view" id="view-education" hidden>
+      <div class="chart-wrap">
+        <canvas id="eduChart" height="260" role="img" aria-label="Share of respondents reporting happy, by education level"></canvas>
+      </div>
+      <p class="chart-note">Computed directly from the dataset. Happiness rises steadily with education level.</p>
+    </div>
+
+    <div class="chart-view" id="view-satisfaction" hidden>
+      <div class="chart-wrap">
+        <canvas id="satisfactionChart" height="260" role="img" aria-label="Share of respondents reporting happy, by life satisfaction score"></canvas>
+      </div>
+      <p class="chart-note">Computed directly from the dataset. *The "0" score was an out-of-scale response the survey still recorded. The paper flags it as unusual, and it's included here for transparency rather than smoothed over.</p>
+    </div>
+
+    <div class="chart-view" id="view-trust" hidden>
+      <div class="chart-wrap">
+        <canvas id="trustChart" height="260" role="img" aria-label="Share of respondents reporting happy, by particularised trust quartile"></canvas>
+      </div>
+      <p class="chart-note">Computed directly from the dataset, split into quartiles of the constructed particularised-trust factor score. Trust in family, neighbours and personal contacts tracks closely with happiness.</p>
+    </div>
+
+    <div class="chart-view" id="view-regression" hidden>
+      <div class="chart-wrap">
+        <canvas id="regressionChart" height="260" role="img" aria-label="Logistic regression odds ratios for predictors of happiness"></canvas>
+      </div>
+      <p class="chart-note">Odds ratios (Exp(B)) from the logistic regression in Table 3. Bars past 1.0 increase the odds of being happy; bars below 1.0 decrease them. Hover a bar for its significance level.</p>
+    </div>
+  </section>
+</main>
+
+<script src="../vendor/chart.umd.min.js"></script>
+<script src="../script.js"></script>
+<script src="bulgaria.js"></script>
+</body>
+</html>
