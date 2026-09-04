@@ -622,8 +622,8 @@ main{
 /* ---------- skills ---------- */
 .skills-grid{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem 2rem;
 }
 
 .skill-group h4{
