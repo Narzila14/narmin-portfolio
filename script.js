@@ -1,3 +1,14 @@
+// ---------- experience/education "View details" toggles ----------
+document.querySelectorAll(".details-toggle").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const target = document.getElementById(btn.getAttribute("aria-controls"));
+    const isOpen = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", String(!isOpen));
+    target.hidden = isOpen;
+    btn.innerHTML = isOpen ? "View details &#9662;" : "Hide details &#9652;";
+  });
+});
+
 // ---------- mobile nav toggle ----------
 const navToggle = document.querySelector(".nav-toggle");
 const topnavLinks = document.querySelector(".topnav-links");
