@@ -5,7 +5,16 @@ document.querySelectorAll(".details-toggle").forEach((btn) => {
     const isOpen = btn.getAttribute("aria-expanded") === "true";
     btn.setAttribute("aria-expanded", String(!isOpen));
     target.hidden = isOpen;
-    btn.innerHTML = isOpen ? "View details &#9662;" : "Hide details &#9652;";
+    const key = isOpen ? "common.viewDetails" : "common.hideDetails";
+    btn.innerHTML = window.t ? window.t(key) : (isOpen ? "View details &#9662;" : "Hide details &#9652;");
+  });
+});
+
+document.addEventListener("languagechange", () => {
+  document.querySelectorAll(".details-toggle").forEach((btn) => {
+    const isOpen = btn.getAttribute("aria-expanded") === "true";
+    const key = isOpen ? "common.hideDetails" : "common.viewDetails";
+    if (window.t) btn.innerHTML = window.t(key);
   });
 });
 

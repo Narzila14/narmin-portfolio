@@ -11,17 +11,22 @@
 </head>
 <body>
 
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="skip.content">Skip to content</a>
 
 <header class="topnav">
   <a href="#about" class="topnav-brand">Narmin Musayeva</a>
   <nav class="topnav-links" aria-label="Section navigation">
-    <a href="#about" class="nav-link active">About</a>
-    <a href="projects/index.html" class="nav-link">Projects</a>
-    <a href="#experience" class="nav-link">Experience</a>
-    <a href="#education" class="nav-link">Education</a>
-    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#about" class="nav-link active" data-i18n="nav.about">About</a>
+    <a href="projects/index.html" class="nav-link" data-i18n="nav.projects">Projects</a>
+    <a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a>
+    <a href="#education" class="nav-link" data-i18n="nav.education">Education</a>
+    <a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a>
   </nav>
+  <div class="lang-switcher">
+    <button type="button" class="lang-btn active" data-lang="en">EN</button>
+    <button type="button" class="lang-btn" data-lang="nl">NL</button>
+    <button type="button" class="lang-btn" data-lang="fr">FR</button>
+  </div>
   <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
 </header>
 
@@ -34,10 +39,10 @@
         <img src="assets/images/profile-photo.png" alt="Narmin Musayeva" class="hero-photo-img">
       </div>
       <div class="hero-info">
-        <p class="eyebrow">Finance · Business Analysis · Data · Sustainability · Business Intelligence</p>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Finance · Business Analysis · Data · Sustainability · Business Intelligence</p>
         <h1 class="hero-name">Narmin Musayeva</h1>
-        <p class="hero-title">The bridge between the spreadsheet and the decision</p>
-        <p class="hero-lead">
+        <p class="hero-title" data-i18n="hero.title">The bridge between the spreadsheet and the decision</p>
+        <p class="hero-lead" data-i18n="hero.lead">
           Completing a Master's in Business Administration, specialising in International and
           Sustainable Finance at KU Leuven, with experience across financial analysis, reporting
           and business support. I enjoy working with data and AI tools, understanding what sits
@@ -45,13 +50,13 @@
           decision-making.
         </p>
         <dl class="hero-contact">
-          <div><dt>Email</dt><dd><a href="mailto:narmin.musali2000@gmail.com">narmin.musali2000@gmail.com</a></dd></div>
-          <div><dt>Phone</dt><dd><a href="tel:+32486063481">+32 486 06 34 81</a></dd></div>
-          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/narmin-musayeva-6a4915167/" target="_blank" rel="noopener">Narmin Musayeva</a></dd></div>
-          <div><dt>Location</dt><dd>Brussels, Belgium</dd></div>
+          <div><dt data-i18n="hero.contact.email">Email</dt><dd><a href="mailto:narmin.musali2000@gmail.com">narmin.musali2000@gmail.com</a></dd></div>
+          <div><dt data-i18n="hero.contact.phone">Phone</dt><dd><a href="tel:+32486063481">+32 486 06 34 81</a></dd></div>
+          <div><dt data-i18n="hero.contact.linkedin">LinkedIn</dt><dd><a href="https://www.linkedin.com/in/narmin-musayeva-6a4915167/" target="_blank" rel="noopener">Narmin Musayeva</a></dd></div>
+          <div><dt data-i18n="hero.contact.location">Location</dt><dd data-i18n="hero.location.value">Brussels, Belgium</dd></div>
         </dl>
         <div class="hero-actions">
-          <a href="assets/cv/Narmin_Musayeva_CV.pdf" class="hero-cta" download>Download CV ↓</a>
+          <a href="assets/cv/Narmin_Musayeva_CV.pdf" class="hero-cta" download data-i18n="hero.cta">Download CV ↓</a>
         </div>
       </div>
     </div>
@@ -59,32 +64,32 @@
   <!-- PROJECTS -->
   <section id="projects" class="section">
     <a href="projects/index.html" class="section-title-link">
-      <h3 class="section-title">Projects →</h3>
+      <h3 class="section-title" data-i18n="projects.sectionTitle">Projects →</h3>
     </a>
-    <p class="section-intro">A CV tells you what I did. Here's a look at how I think.</p>
+    <p class="section-intro" data-i18n="projects.intro">A CV tells you what I did. Here's a look at how I think.</p>
 
     <div class="project-cards">
       <article class="case">
-        <p class="case-tag">Master's Thesis</p>
+        <p class="case-tag" data-i18n="projects.thesis.tag">Master's Thesis</p>
         <h4>Bank Payout Policy: Dividends versus Buybacks</h4>
-        <p class="case-desc">
+        <p class="case-desc" data-i18n="projects.thesis.desc">
           Analysed 66 listed Eurozone banks, with 64 non-Eurozone banks used as a comparison sample,
           using a fixed-effects panel regression on what
           actually pushed banks toward share buybacks once the ECB started tightening, with an
           interactive breakdown of every result.
         </p>
-        <a href="projects/thesis.html" class="case-link">Read the full write-up →</a>
+        <a href="projects/thesis.html" class="case-link" data-i18n="projects.readMore">Read the full write-up →</a>
       </article>
 
       <article class="case">
-        <p class="case-tag">Group Research Project</p>
+        <p class="case-tag" data-i18n="projects.bulgaria.tag">Group Research Project</p>
         <h4>What Makes People Happy in Bulgaria?</h4>
-        <p class="case-desc">
+        <p class="case-desc" data-i18n="projects.bulgaria.desc">
           Logistic regression and factor analysis on 1,558 respondents from the 2017 European
           Values Study, testing whether life satisfaction, trust, age, education and gender predict
           who reports being happy.
         </p>
-        <a href="projects/bulgaria.html" class="case-link">Read the full write-up →</a>
+        <a href="projects/bulgaria.html" class="case-link" data-i18n="projects.readMore">Read the full write-up →</a>
       </article>
 
       <!-- Apple project temporarily hidden
@@ -99,64 +104,64 @@
   </section>
   <!-- EXPERIENCE -->
   <section id="experience" class="section">
-    <h3 class="section-title">Experience</h3>
+    <h3 class="section-title" data-i18n="experience.sectionTitle">Experience</h3>
 
     <ol class="timeline">
       <li class="timeline-item">
         <span class="timeline-date">2025</span>
         <div class="timeline-body">
-          <h4>Finance &amp; Administrative Intern</h4>
-          <p class="role-meta">Embassy of the Republic of Azerbaijan in Switzerland · Sep–Dec 2025</p>
+          <h4 data-i18n="exp1.title">Finance &amp; Administrative Intern</h4>
+          <p class="role-meta" data-i18n="exp1.meta">Embassy of the Republic of Azerbaijan in Switzerland · Sep–Dec 2025</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-1">View details &#9662;</button>
           <ul class="role-bullets" id="details-1" hidden>
-            <li>Maintained and updated Excel-based financial records supporting expense tracking, budget follow-up and internal reporting</li>
-            <li>Verified financial information against invoices, receipts and supporting documentation, identifying missing or inconsistent information and following up where needed</li>
-            <li>Organised financial data and documentation into clear, structured summaries for internal review</li>
-            <li>Supported day-to-day finance and administrative activities while managing sensitive information accurately, independently and within deadlines</li>
+            <li data-i18n="exp1.b1">Maintained and updated Excel-based financial records supporting expense tracking, budget follow-up and internal reporting</li>
+            <li data-i18n="exp1.b2">Verified financial information against invoices, receipts and supporting documentation, identifying missing or inconsistent information and following up where needed</li>
+            <li data-i18n="exp1.b3">Organised financial data and documentation into clear, structured summaries for internal review</li>
+            <li data-i18n="exp1.b4">Supported day-to-day finance and administrative activities while managing sensitive information accurately, independently and within deadlines</li>
           </ul>
         </div>
       </li>
       <li class="timeline-item">
         <span class="timeline-date">2023</span>
         <div class="timeline-body">
-          <h4>Marketing Intern</h4>
-          <p class="role-meta">Belixys · Feb–Sep 2023</p>
+          <h4 data-i18n="exp2.title">Marketing Intern</h4>
+          <p class="role-meta" data-i18n="exp2.meta">Belixys · Feb–Sep 2023</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-2">View details &#9662;</button>
           <ul class="role-bullets" id="details-2" hidden>
-            <li>Supported the preparation of marketing and commercial materials, including product information, pricing documents and content used for campaigns and trade-show activities</li>
-            <li>Conducted competitor and market research, comparing products, pricing and positioning to support commercial and marketing decisions</li>
-            <li>Created and maintained structured product and pricing templates in Excel and Word, ensuring information was accurate, consistent and easy to use</li>
-            <li>Assisted with planning for trade shows and promotional activities, including preparing budget estimates, organising cost information and supporting related administrative follow-up</li>
-            <li>Helped manage expense and supporting documentation through the company's finance application</li>
+            <li data-i18n="exp2.b1">Supported the preparation of marketing and commercial materials, including product information, pricing documents and content used for campaigns and trade-show activities</li>
+            <li data-i18n="exp2.b2">Conducted competitor and market research, comparing products, pricing and positioning to support commercial and marketing decisions</li>
+            <li data-i18n="exp2.b3">Created and maintained structured product and pricing templates in Excel and Word, ensuring information was accurate, consistent and easy to use</li>
+            <li data-i18n="exp2.b4">Assisted with planning for trade shows and promotional activities, including preparing budget estimates, organising cost information and supporting related administrative follow-up</li>
+            <li data-i18n="exp2.b5">Helped manage expense and supporting documentation through the company's finance application</li>
           </ul>
         </div>
       </li>
       <li class="timeline-item">
         <span class="timeline-date">2022</span>
         <div class="timeline-body">
-          <h4>Human Resources Assistant</h4>
-          <p class="role-meta">StepStone · Jul–Aug 2022</p>
+          <h4 data-i18n="exp3.title">Human Resources Assistant</h4>
+          <p class="role-meta" data-i18n="exp3.meta">StepStone · Jul–Aug 2022</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-3">View details &#9662;</button>
           <ul class="role-bullets" id="details-3" hidden>
-            <li>Supported recruitment, onboarding and internal mobility processes for technical and business positions</li>
-            <li>Maintained accurate candidate and employee information using Excel and SmartRecruiters, ensuring records and documentation remained organised and up to date</li>
-            <li>Coordinated interviews, calendars and follow-up communication between candidates, hiring teams and internal stakeholders</li>
-            <li>Assisted with onboarding and employee-transfer documentation while handling personal and recruitment information confidentially</li>
+            <li data-i18n="exp3.b1">Supported recruitment, onboarding and internal mobility processes for technical and business positions</li>
+            <li data-i18n="exp3.b2">Maintained accurate candidate and employee information using Excel and SmartRecruiters, ensuring records and documentation remained organised and up to date</li>
+            <li data-i18n="exp3.b3">Coordinated interviews, calendars and follow-up communication between candidates, hiring teams and internal stakeholders</li>
+            <li data-i18n="exp3.b4">Assisted with onboarding and employee-transfer documentation while handling personal and recruitment information confidentially</li>
           </ul>
         </div>
       </li>
       <li class="timeline-item">
         <span class="timeline-date">2018–2021</span>
         <div class="timeline-body">
-          <h4>Personal &amp; Administrative Assistant to the Ambassador</h4>
-          <p class="role-meta">Embassy of the Republic of Azerbaijan in Belgium</p>
+          <h4 data-i18n="exp4.title">Personal &amp; Administrative Assistant to the Ambassador</h4>
+          <p class="role-meta" data-i18n="exp4.meta">Embassy of the Republic of Azerbaijan in Belgium</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-4">View details &#9662;</button>
           <ul class="role-bullets" id="details-4" hidden>
-            <li>Provided administrative and organisational support, managing correspondence, records and confidential documentation in an international diplomatic environment</li>
-            <li>Coordinated meetings, appointments and communication with governmental, diplomatic and business stakeholders, acting as a reliable point of contact</li>
-            <li>Prepared and organised documents, summaries and background information required for meetings, official activities and day-to-day office operations</li>
-            <li>Managed multiple requests and competing priorities independently, ensuring information and documentation were prepared accurately and on time</li>
-            <li>Supported official visits, events and general office coordination as required</li>
+            <li data-i18n="exp4.b1">Provided administrative and organisational support, managing correspondence, records and confidential documentation in an international diplomatic environment</li>
+            <li data-i18n="exp4.b2">Coordinated meetings, appointments and communication with governmental, diplomatic and business stakeholders, acting as a reliable point of contact</li>
+            <li data-i18n="exp4.b3">Prepared and organised documents, summaries and background information required for meetings, official activities and day-to-day office operations</li>
+            <li data-i18n="exp4.b4">Managed multiple requests and competing priorities independently, ensuring information and documentation were prepared accurately and on time</li>
+            <li data-i18n="exp4.b5">Supported official visits, events and general office coordination as required</li>
           </ul>
         </div>
       </li>
@@ -164,44 +169,44 @@
   </section>
   <!-- EDUCATION -->
   <section id="education" class="section">
-    <h3 class="section-title">Education</h3>
+    <h3 class="section-title" data-i18n="education.sectionTitle">Education</h3>
     <ol class="timeline">
       <li class="timeline-item">
         <span class="timeline-date">2025–2026</span>
         <div class="timeline-body">
-          <h4>Master of Business Administration (MSc) &ndash; Sustainable Finance</h4>
-          <p class="role-meta">Data Science for Finance side track · KU Leuven · 2025 – 2026</p>
+          <h4 data-i18n="edu1.title">Master of Business Administration (MSc) &ndash; Sustainable Finance</h4>
+          <p class="role-meta" data-i18n="edu1.meta">Data Science for Finance side track · KU Leuven · 2025 – 2026</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-5">View details &#9662;</button>
           <ul class="role-bullets" id="details-5" hidden>
-            <li>Specialised in sustainable finance, banking, international finance and financial technology, complemented by applied data science for financial analysis</li>
-            <li><strong>Key coursework:</strong> Sustainable Finance, International Finance, Modern Banking and Financial Technology, Topics in Fintech, Data Science for Finance, Business Research Methods, and Ethics, Responsibility and Sustainability</li>
-            <li><strong>Master's thesis:</strong> Bank Payout Policy: Dividends versus Buybacks, using quantitative analysis to examine payout decisions across listed banks</li>
+            <li data-i18n="edu1.b1">Specialised in sustainable finance, banking, international finance and financial technology, complemented by applied data science for financial analysis</li>
+            <li data-i18n="edu1.b2"><strong>Key coursework:</strong> Sustainable Finance, International Finance, Modern Banking and Financial Technology, Topics in Fintech, Data Science for Finance, Business Research Methods, and Ethics, Responsibility and Sustainability</li>
+            <li data-i18n="edu1.b3"><strong>Master's thesis:</strong> Bank Payout Policy: Dividends versus Buybacks, using quantitative analysis to examine payout decisions across listed banks</li>
           </ul>
         </div>
       </li>
       <li class="timeline-item">
         <span class="timeline-date">2023–2025</span>
         <div class="timeline-body">
-          <h4>Bridging Programme &ndash; Master of Business Administration</h4>
-          <p class="role-meta">KU Leuven · 2023 – 2025</p>
+          <h4 data-i18n="edu2.title">Bridging Programme &ndash; Master of Business Administration</h4>
+          <p class="role-meta" data-i18n="edu2.meta">KU Leuven · 2023 – 2025</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-6">View details &#9662;</button>
           <ul class="role-bullets" id="details-6" hidden>
-            <li>Strengthened my foundation in finance, economics, quantitative methods, reporting and business strategy in preparation for the MBA</li>
-            <li><strong>Key coursework:</strong> Corporate Finance, Internal and External Financial Reporting, Statistics for Business, Research Methods, Microeconomics, Macro- and International Economics, Mathematics for Business, Principles of Taxation, and Strategy and Entrepreneurship</li>
-            <li>Developed stronger analytical and quantitative skills through financial decision-making, statistical analysis, economic reasoning and business research</li>
+            <li data-i18n="edu2.b1">Strengthened my foundation in finance, economics, quantitative methods, reporting and business strategy in preparation for the MBA</li>
+            <li data-i18n="edu2.b2"><strong>Key coursework:</strong> Corporate Finance, Internal and External Financial Reporting, Statistics for Business, Research Methods, Microeconomics, Macro- and International Economics, Mathematics for Business, Principles of Taxation, and Strategy and Entrepreneurship</li>
+            <li data-i18n="edu2.b3">Developed stronger analytical and quantitative skills through financial decision-making, statistical analysis, economic reasoning and business research</li>
           </ul>
         </div>
       </li>
       <li class="timeline-item">
         <span class="timeline-date">2020–2023</span>
         <div class="timeline-body">
-          <h4>Bachelor of Business Management &ndash; Specialisation in Marketing</h4>
-          <p class="role-meta">Odisee University of Applied Sciences · Feb 2020 – Sep 2023</p>
+          <h4 data-i18n="edu3.title">Bachelor of Business Management &ndash; Specialisation in Marketing</h4>
+          <p class="role-meta" data-i18n="edu3.meta">Odisee University of Applied Sciences · Feb 2020 – Sep 2023</p>
           <button type="button" class="details-toggle" aria-expanded="false" aria-controls="details-7">View details &#9662;</button>
           <ul class="role-bullets" id="details-7" hidden>
-            <li>Built a broad foundation across business, finance, economics, marketing, statistics and organisational management</li>
-            <li><strong>Key coursework:</strong> Financial Business Management, Commercial Budgeting and Account Management, Micro- and Macroeconomics, Business Strategy, Statistics for Market Research, Market Research and Analysis, Project Management, Foreign Trade, and Commercial Law</li>
-            <li><strong>Bachelor thesis:</strong> Effective Marketing Strategies for Deployable Mobile Surveillance Solutions in the Belgian Market. Conducted qualitative interviews, a quantitative stakeholder survey, competitor analysis and desk research to develop market and communication recommendations for Belixys</li>
+            <li data-i18n="edu3.b1">Built a broad foundation across business, finance, economics, marketing, statistics and organisational management</li>
+            <li data-i18n="edu3.b2"><strong>Key coursework:</strong> Financial Business Management, Commercial Budgeting and Account Management, Micro- and Macroeconomics, Business Strategy, Statistics for Market Research, Market Research and Analysis, Project Management, Foreign Trade, and Commercial Law</li>
+            <li data-i18n="edu3.b3"><strong>Bachelor thesis:</strong> Effective Marketing Strategies for Deployable Mobile Surveillance Solutions in the Belgian Market. Conducted qualitative interviews, a quantitative stakeholder survey, competitor analysis and desk research to develop market and communication recommendations for Belixys</li>
           </ul>
         </div>
       </li>
@@ -209,55 +214,56 @@
   </section>
   <!-- SKILLS -->
   <section id="skills" class="section">
-    <h3 class="section-title">Skills</h3>
+    <h3 class="section-title" data-i18n="skills.sectionTitle">Skills</h3>
     <div class="skills-grid">
       <div class="skill-group">
-        <h4>Finance</h4>
+        <h4 data-i18n="skills.finance">Finance</h4>
         <ul class="skill-list">
-          <li>Financial statement analysis</li>
-          <li>Budgeting/forecasting</li>
-          <li>Variance analysis</li>
-          <li>Financial reporting</li>
+          <li data-i18n="skills.finance.1">Financial statement analysis</li>
+          <li data-i18n="skills.finance.2">Budgeting/forecasting</li>
+          <li data-i18n="skills.finance.3">Variance analysis</li>
+          <li data-i18n="skills.finance.4">Financial reporting</li>
         </ul>
       </div>
       <div class="skill-group">
-        <h4>Analytics</h4>
+        <h4 data-i18n="skills.analytics">Analytics</h4>
         <ul class="skill-list">
           <li>Excel</li>
           <li>SPSS</li>
-          <li>Power BI (learning)</li>
-          <li>Python (fundamental)</li>
-          <li>SQL (fundamental)</li>
+          <li data-i18n="skills.analytics.2">Power BI (learning)</li>
+          <li data-i18n="skills.analytics.3">Python (fundamental)</li>
+          <li data-i18n="skills.analytics.4">SQL (fundamental)</li>
         </ul>
       </div>
       <div class="skill-group">
-        <h4>Methods</h4>
+        <h4 data-i18n="skills.methods">Methods</h4>
         <ul class="skill-list">
-          <li>Regression</li>
-          <li>Panel-data analysis</li>
-          <li>Logistic regression</li>
-          <li>Factor analysis</li>
-          <li>Data visualisation</li>
+          <li data-i18n="skills.methods.1">Regression</li>
+          <li data-i18n="skills.methods.2">Panel-data analysis</li>
+          <li data-i18n="skills.methods.3">Logistic regression</li>
+          <li data-i18n="skills.methods.4">Factor analysis</li>
+          <li data-i18n="skills.methods.5">Data visualisation</li>
         </ul>
       </div>
       <div class="skill-group">
-        <h4>Business</h4>
+        <h4 data-i18n="skills.business">Business</h4>
         <ul class="skill-list">
           <li>BPMN 2.0</li>
-          <li>Process modelling</li>
-          <li>Requirements gathering</li>
+          <li data-i18n="skills.business.2">Process modelling</li>
+          <li data-i18n="skills.business.3">Requirements gathering</li>
         </ul>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <p>Built by Narmin Musayeva.</p>
+    <p data-i18n="footer.text">Built by Narmin Musayeva.</p>
   </footer>
 
 </main>
 
 <script src="vendor/chart.umd.min.js"></script>
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
