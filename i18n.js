@@ -36,14 +36,14 @@ Object.assign(window.I18N.en, {
 
   "experience.sectionTitle": "Experience",
   "exp1.title": "Finance &amp; Administrative Intern",
-  "exp1.meta": "Embassy of the Republic of Azerbaijan in Switzerland · Sep–Dec 2025",
+  "exp1.meta": "Embassy of the Republic of Azerbaijan in Switzerland · Sep 2025–Dec 2025",
   "exp1.b1": "Maintained and updated Excel-based financial records supporting expense tracking, budget follow-up and internal reporting",
   "exp1.b2": "Verified financial information against invoices, receipts and supporting documentation, identifying missing or inconsistent information and following up where needed",
   "exp1.b3": "Organised financial data and documentation into clear, structured summaries for internal review",
   "exp1.b4": "Supported day-to-day finance and administrative activities while managing sensitive information accurately, independently and within deadlines",
 
   "exp2.title": "Marketing Intern & Student",
-  "exp2.meta": "Belixys · Feb–Sep 2023",
+  "exp2.meta": "Belixys · Feb 2023–Sep 2023",
   "exp2.b1": "Supported the preparation of marketing and commercial materials, including product information, pricing documents and content used for campaigns and trade-show activities",
   "exp2.b2": "Conducted competitor and market research, comparing products, pricing and positioning to support commercial and marketing decisions",
   "exp2.b3": "Created and maintained structured product and pricing templates in Excel and Word, ensuring information was accurate, consistent and easy to use",
@@ -51,7 +51,7 @@ Object.assign(window.I18N.en, {
   "exp2.b5": "Helped manage expense and supporting documentation through the company's finance application",
 
   "exp3.title": "Human Resources Assistant",
-  "exp3.meta": "StepStone · Jul–Aug 2022",
+  "exp3.meta": "StepStone · Jul 2022–Aug 2022",
   "exp3.b1": "Supported recruitment, onboarding and internal mobility processes for technical and business positions",
   "exp3.b2": "Maintained accurate candidate and employee information using Excel and SmartRecruiters, ensuring records and documentation remained organised and up to date",
   "exp3.b3": "Coordinated interviews, calendars and follow-up communication between candidates, hiring teams and internal stakeholders",
@@ -142,14 +142,14 @@ Object.assign(window.I18N.nl, {
 
   "experience.sectionTitle": "Ervaring",
   "exp1.title": "Financieel-administratief stagiair",
-  "exp1.meta": "Ambassade van de Republiek Azerbeidzjan in Zwitserland · sep–dec 2025",
+  "exp1.meta": "Ambassade van de Republiek Azerbeidzjan in Zwitserland · sep 2025–dec 2025",
   "exp1.b1": "Onderhield en actualiseerde Excel-gebaseerde financiële registraties ter ondersteuning van uitgavenopvolging, budgetopvolging en interne rapportering",
   "exp1.b2": "Verifieerde financiële informatie aan de hand van facturen, kwitanties en ondersteunende documentatie, en spoorde ontbrekende of inconsistente informatie op met de nodige opvolging",
   "exp1.b3": "Structureerde financiële gegevens en documentatie in heldere, overzichtelijke samenvattingen voor intern gebruik",
   "exp1.b4": "Ondersteunde dagelijkse financiële en administratieve activiteiten en beheerde daarbij gevoelige informatie nauwkeurig, zelfstandig en binnen deadlines",
 
   "exp2.title": "Marketingstagiair en Student",
-  "exp2.meta": "Belixys · feb–sep 2023",
+  "exp2.meta": "Belixys · feb 2023–sep 2023",
   "exp2.b1": "Ondersteunde de voorbereiding van marketing- en commerciële materialen, waaronder productinformatie, prijsdocumenten en content voor campagnes en beursactiviteiten",
   "exp2.b2": "Voerde concurrentie- en marktonderzoek uit, met vergelijking van producten, prijszetting en positionering ter ondersteuning van commerciële en marketingbeslissingen",
   "exp2.b3": "Creëerde en onderhield gestructureerde product- en prijstemplates in Excel en Word, met aandacht voor nauwkeurigheid, consistentie en bruikbaarheid",
@@ -157,7 +157,7 @@ Object.assign(window.I18N.nl, {
   "exp2.b5": "Hielp bij het beheer van onkosten en ondersteunende documentatie via de financiële applicatie van het bedrijf",
 
   "exp3.title": "HR-medewerker",
-  "exp3.meta": "StepStone · jul–aug 2022",
+  "exp3.meta": "StepStone · jul 2022–aug 2022",
   "exp3.b1": "Ondersteunde werving, onboarding en interne mobiliteitsprocessen voor technische en business functies",
   "exp3.b2": "Hield kandidaat- en medewerkersinformatie nauwkeurig bij in Excel en SmartRecruiters, en zorgde dat dossiers en documentatie overzichtelijk en actueel bleven",
   "exp3.b3": "Coördineerde sollicitatiegesprekken, agenda's en opvolgcommunicatie tussen kandidaten, wervingsteams en interne stakeholders",
@@ -248,14 +248,14 @@ Object.assign(window.I18N.fr, {
 
   "experience.sectionTitle": "Expérience",
   "exp1.title": "Stagiaire finance et administration",
-  "exp1.meta": "Ambassade de la République d'Azerbaïdjan en Suisse · sept.–déc. 2025",
+  "exp1.meta": "Ambassade de la République d'Azerbaïdjan en Suisse · sept. 2025–déc. 2025",
   "exp1.b1": "Tenue et mise à jour de registres financiers sous Excel pour le suivi des dépenses, le suivi budgétaire et le reporting interne",
   "exp1.b2": "Vérification des informations financières par rapport aux factures, reçus et pièces justificatives, en identifiant les informations manquantes ou incohérentes et en assurant le suivi nécessaire",
   "exp1.b3": "Organisation des données et documents financiers en synthèses claires et structurées pour la revue interne",
   "exp1.b4": "Soutien aux activités financières et administratives quotidiennes tout en gérant des informations sensibles avec précision, de manière autonome et dans les délais",
 
   "exp2.title": "Stagiaire marketing et étudiante",
-  "exp2.meta": "Belixys · févr.–sept. 2023",
+  "exp2.meta": "Belixys · févr. 2023–sept. 2023",
   "exp2.b1": "Participation à la préparation de supports marketing et commerciaux, notamment fiches produits, documents tarifaires et contenus pour campagnes et salons professionnels",
   "exp2.b2": "Réalisation d'études concurrentielles et de marché, comparant produits, prix et positionnement pour appuyer les décisions commerciales et marketing",
   "exp2.b3": "Création et maintenance de modèles structurés de produits et de tarifs sous Excel et Word, garantissant des informations exactes, cohérentes et faciles à utiliser",
@@ -263,7 +263,7 @@ Object.assign(window.I18N.fr, {
   "exp2.b5": "Aide à la gestion des notes de frais et des pièces justificatives via l'application financière de l'entreprise",
 
   "exp3.title": "Assistante Ressources Humaines",
-  "exp3.meta": "StepStone · juill.–août 2022",
+  "exp3.meta": "StepStone · juill. 2022–août 2022",
   "exp3.b1": "Soutien aux processus de recrutement, d'intégration et de mobilité interne pour des postes techniques et commerciaux",
   "exp3.b2": "Mise à jour précise des informations sur les candidats et les employés via Excel et SmartRecruiters, garantissant des dossiers organisés et à jour",
   "exp3.b3": "Coordination des entretiens, des agendas et des communications de suivi entre candidats, équipes de recrutement et parties prenantes internes",
