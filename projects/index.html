@@ -35,45 +35,56 @@
 
 <main id="main">
   <section class="section project-page">
-    <p class="eyebrow">A CV tells you what I did. Here's a look at how I think.</p>
-    <h1 class="project-title">Projects</h1>
+    <p class="eyebrow" data-i18n="projects.intro">
+      A CV tells you what I did. Here's a look at how I think.
+    </p>
+
+    <h1 class="project-title" data-i18n="nav.projects">
+      Projects
+    </h1>
 
     <div class="project-cards">
       <article class="case">
-        <p class="case-tag">Master's Thesis</p>
-        <h4>Bank Payout Policy: Dividends versus Buybacks</h4>
-        <p class="case-desc">
-          Analysed 66 listed Eurozone banks, with 64 non-Eurozone banks used as a comparison sample,
-          using a fixed-effects panel regression on what
-          actually pushed banks toward share buybacks once the ECB started tightening, with an
-          interactive breakdown of every result.
+        <p class="case-tag" data-i18n="projects.thesis.tag">
+          Master's Thesis
         </p>
-        <a href="thesis.html" class="case-link">Read the full write-up →</a>
+
+        <h4>Bank Payout Policy: Dividends versus Buybacks</h4>
+
+        <p class="case-desc" data-i18n="projects.thesis.desc">
+          Analysed 66 listed Eurozone banks, with 64 non-Eurozone banks used as a comparison sample,
+          using a fixed-effects panel regression on what actually pushed banks toward share buybacks once the ECB started tightening, with an interactive breakdown of every result.
+        </p>
+
+        <a href="thesis.html"
+           class="case-link"
+           data-i18n="projects.readMore">
+          Read the full write-up →
+        </a>
       </article>
 
       <article class="case">
-        <p class="case-tag">Group Research Project</p>
-        <h4>What Makes People Happy in Bulgaria?</h4>
-        <p class="case-desc">
-          Logistic regression and factor analysis on 1,558 respondents from the 2017 European
-          Values Study, testing whether life satisfaction, trust, age, education and gender predict
-          who reports being happy.
+        <p class="case-tag" data-i18n="projects.bulgaria.tag">
+          Group Research Project
         </p>
-        <a href="bulgaria.html" class="case-link">Read the full write-up →</a>
-      </article>
 
-      <!-- Apple project temporarily hidden
-      <article class="case case-secondary">
-        <p class="case-tag">Financial Analysis</p>
-        <h4>Apple: revenue &amp; profitability review</h4>
-        <p class="case-desc placeholder-copy">Write-up coming soon.</p>
-        <a href="apple.html" class="case-link">Read more →</a>
+        <h4>What Makes People Happy in Bulgaria?</h4>
+
+        <p class="case-desc" data-i18n="projects.bulgaria.desc">
+          Logistic regression and factor analysis on 1,558 respondents from the 2017 European Values Study, testing whether life satisfaction, trust, age, education and gender predict who reports being happy.
+        </p>
+
+        <a href="bulgaria.html"
+           class="case-link"
+           data-i18n="projects.readMore">
+          Read the full write-up →
+        </a>
       </article>
-      -->
     </div>
   </section>
 </main>
 
+<script src="../i18n.js"></script>
 <script src="../script.js"></script>
 </body>
 </html>
