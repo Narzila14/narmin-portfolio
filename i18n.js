@@ -84,6 +84,11 @@ Object.assign(window.I18N.en, {
   "edu3.b2": "<strong>Key coursework:</strong> Financial Business Management, Commercial Budgeting and Account Management, Micro- and Macroeconomics, Business Strategy, Statistics for Market Research, Market Research and Analysis, Project Management, Foreign Trade, and Commercial Law",
   "edu3.b3": "<strong>Bachelor thesis:</strong> Effective Marketing Strategies for Deployable Mobile Surveillance Solutions in the Belgian Market. Conducted qualitative interviews, a quantitative stakeholder survey, competitor analysis and desk research to develop market and communication recommendations for Belixys",
 
+  "edu4.title":"Bachelor of Business Administration",
+  "edu4.meta": "KU Leuven · Sep 2018 – Feb 2020",
+  "edu4.b1": "Built an early foundation across business administration, financial accounting, economics, management, research methods, business mathematics and financial markets.",
+  "edu4.b2": "<strong>Key coursework:</strong> Financial Institutions and Markets, Management, Financial Accounting, Mathematics for Business, Managerial Economics, Research Methods and Management Project.",
+
   "skills.sectionTitle": "Skills",
   "skills.finance": "Finance",
   "skills.analytics": "Analytics",
@@ -185,6 +190,11 @@ Object.assign(window.I18N.nl, {
   "edu3.b2": "<strong>Belangrijkste vakken:</strong> Financial Business Management, Commercial Budgeting and Account Management, Micro- and Macroeconomics, Business Strategy, Statistics for Market Research, Market Research and Analysis, Project Management, Foreign Trade, en Commercial Law",
   "edu3.b3": "<strong>Bachelorproef:</strong> Effective Marketing Strategies for Deployable Mobile Surveillance Solutions in the Belgian Market. Voerde kwalitatieve interviews, een kwantitatieve stakeholdersurvey, concurrentieanalyse en deskresearch uit om markt- en communicatieaanbevelingen te ontwikkelen voor Belixys",
 
+  "edu4.title": "Bachelor of Business Administration",
+  "edu4.meta": "KU Leuven · Sep 2018 – Feb 2020",
+  "edu4.b1": "Een eerste brede basis opgebouwd in bedrijfsadministratie, financiële boekhouding, economie, management, onderzoeksmethoden, bedrijfskunde-wiskunde en financiële markten.",
+  "edu4.b2": "<strong>Belangrijkste vakken:</strong> Financiële Instellingen en Markten, Management, Financiële Boekhouding, Wiskunde voor Bedrijfskunde, Managerial Economics, Onderzoeksmethoden en Managementproject.",
+
   "skills.sectionTitle": "Vaardigheden",
   "skills.finance": "Financiën",
   "skills.analytics": "Data-analyse",
@@ -285,6 +295,11 @@ Object.assign(window.I18N.fr, {
   "edu3.b1": "Construction d'une base solide en gestion d'entreprise, finance, économie, marketing, statistiques et management organisationnel",
   "edu3.b2": "<strong>Cours principaux :</strong> Financial Business Management, Commercial Budgeting and Account Management, Micro- and Macroeconomics, Business Strategy, Statistics for Market Research, Market Research and Analysis, Project Management, Foreign Trade, et Commercial Law",
   "edu3.b3": "<strong>Mémoire de bachelier :</strong> Effective Marketing Strategies for Deployable Mobile Surveillance Solutions in the Belgian Market. Réalisation d'entretiens qualitatifs, d'une enquête quantitative auprès des parties prenantes, d'une analyse concurrentielle et de recherches documentaires afin de développer des recommandations marketing et de communication pour Belixys",
+
+  "edu4.title": "Bachelor of Business Administration",
+  "edu4.meta": "KU Leuven · sept. 2018 – févr. 2020",
+  "edu4.b1": "A acquis une première base solide en administration des affaires, comptabilité financière, économie, gestion, méthodes de recherche, mathématiques appliquées à l’entreprise et marchés financiers.",
+  "edu4.b2": "<strong>Cours principaux :</strong> Institutions et marchés financiers, Management, Comptabilité financière, Mathématiques pour l’entreprise, Économie managériale, Méthodes de recherche et Projet de management.",
 
   "skills.sectionTitle": "Compétences",
   "skills.finance": "Finance",
