@@ -50,9 +50,9 @@ a{ color: inherit; }
   z-index: 50;
   background: var(--ink);
   color: #EDEBE3;
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
   padding: 1.1rem 2.5rem;
 }
 
@@ -62,11 +62,13 @@ a{ color: inherit; }
   font-weight: 500;
   color: #fff;
   text-decoration: none;
+  justify-self: start;
 }
 
 .topnav-links{
   display:flex;
   gap: 1.75rem;
+  justify-self: center;
 }
 
 .nav-link{
@@ -99,7 +101,8 @@ a{ color: inherit; }
 .lang-switcher{
   display:flex;
   gap: 0.35rem;
-  margin-left: 1.5rem;
+  justify-self: end;
+  margin-left: 0;
 }
 
 .lang-btn{
@@ -168,7 +171,8 @@ main{
 .hero{ padding-top: 2.5rem; }
 
 .hero-card{
-  display:flex;
+  display:grid;
+  grid-template-columns: 320px 1fr;
   border: 1px solid var(--line);
   background: var(--paper-raised);
   margin-bottom: 3rem;
