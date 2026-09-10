@@ -67,13 +67,13 @@ Object.assign(window.I18N.en, {
 
   "education.sectionTitle": "Education",
   "edu1.title": "Master of Business Administration (MSc) &ndash; Sustainable Finance",
-  "edu1.meta": "Data Science for Finance side track · KU Leuven · 2025 – 2026",
+  "edu1.meta": "Data Science for Finance side track · KU Leuven · Sep 2025 – Sep 2026",
   "edu1.b1": "Specialised in sustainable finance, banking, international finance and financial technology, complemented by applied data science for financial analysis",
   "edu1.b2": "<strong>Key coursework:</strong> Sustainable Finance, International Finance, Modern Banking and Financial Technology, Topics in Fintech, Data Science for Finance, Business Research Methods, and Ethics, Responsibility and Sustainability",
   "edu1.b3": "<strong>Master's thesis:</strong> Bank Payout Policy: Dividends versus Buybacks, using quantitative analysis to examine payout decisions across listed banks",
 
   "edu2.title": "Bridging Programme &ndash; Master of Business Administration",
-  "edu2.meta": "KU Leuven · 2023 – 2025",
+  "edu2.meta": "KU Leuven · Sep 2023 – Sep 2025",
   "edu2.b1": "Strengthened my foundation in finance, economics, quantitative methods, reporting and business strategy in preparation for the MBA",
   "edu2.b2": "<strong>Key coursework:</strong> Corporate Finance, Internal and External Financial Reporting, Statistics for Business, Research Methods, Microeconomics, Macro- and International Economics, Mathematics for Business, Principles of Taxation, and Strategy and Entrepreneurship",
   "edu2.b3": "Developed stronger analytical and quantitative skills through financial decision-making, statistical analysis, economic reasoning and business research",
@@ -173,13 +173,13 @@ Object.assign(window.I18N.nl, {
 
   "education.sectionTitle": "Opleiding",
   "edu1.title": "Master of Business Administration (MSc) &ndash; Sustainable Finance",
-  "edu1.meta": "Data Science for Finance side track · KU Leuven · 2025 – 2026",
+  "edu1.meta": "Data Science for Finance side track · KU Leuven · sep 2025 – sep 2026",
   "edu1.b1": "Specialiseerde zich in sustainable finance, bankwezen, internationale financiën en financiële technologie, aangevuld met toegepaste data science voor financiële analyse",
   "edu1.b2": "<strong>Belangrijkste vakken:</strong> Sustainable Finance, International Finance, Modern Banking and Financial Technology, Topics in Fintech, Data Science for Finance, Business Research Methods, en Ethics, Responsibility and Sustainability",
   "edu1.b3": "<strong>Masterproef:</strong> Bank Payout Policy: Dividends versus Buybacks, met kwantitatieve analyse van uitkeringsbeslissingen bij beursgenoteerde banken",
 
   "edu2.title": "Schakelprogramma &ndash; Master of Business Administration",
-  "edu2.meta": "KU Leuven · 2023 – 2025",
+  "edu2.meta": "KU Leuven · sep 2023 – sep 2025",
   "edu2.b1": "Versterkte mijn basis in finance, economie, kwantitatieve methoden, rapportering en bedrijfsstrategie ter voorbereiding op de MBA",
   "edu2.b2": "<strong>Belangrijkste vakken:</strong> Corporate Finance, Internal and External Financial Reporting, Statistics for Business, Research Methods, Microeconomics, Macro- and International Economics, Mathematics for Business, Principles of Taxation, en Strategy and Entrepreneurship",
   "edu2.b3": "Ontwikkelde sterkere analytische en kwantitatieve vaardigheden via financiële besluitvorming, statistische analyse, economische redenering en bedrijfsonderzoek",
@@ -279,13 +279,13 @@ Object.assign(window.I18N.fr, {
 
   "education.sectionTitle": "Formation",
   "edu1.title": "Master of Business Administration (MSc) &ndash; Sustainable Finance",
-  "edu1.meta": "Data Science for Finance side track · KU Leuven · 2025 – 2026",
+  "edu1.meta": "Data Science for Finance side track · KU Leuven · sep. 2025 – sep.  2026",
   "edu1.b1": "Spécialisation en finance durable, banque, finance internationale et technologie financière, complétée par la data science appliquée à l'analyse financière",
   "edu1.b2": "<strong>Cours principaux :</strong> Sustainable Finance, International Finance, Modern Banking and Financial Technology, Topics in Fintech, Data Science for Finance, Business Research Methods, et Ethics, Responsibility and Sustainability",
   "edu1.b3": "<strong>Mémoire de master :</strong> Bank Payout Policy: Dividends versus Buybacks, une analyse quantitative des décisions de distribution au sein de banques cotées",
 
   "edu2.title": "Programme passerelle &ndash; Master of Business Administration",
-  "edu2.meta": "KU Leuven · 2023 – 2025",
+  "edu2.meta": "KU Leuven · sep. 2023 – sep. 2025",
   "edu2.b1": "Renforcement des bases en finance, économie, méthodes quantitatives, reporting et stratégie d'entreprise en préparation du MBA",
   "edu2.b2": "<strong>Cours principaux :</strong> Corporate Finance, Internal and External Financial Reporting, Statistics for Business, Research Methods, Microeconomics, Macro- and International Economics, Mathematics for Business, Principles of Taxation, et Strategy and Entrepreneurship",
   "edu2.b3": "Développement de compétences analytiques et quantitatives à travers la prise de décision financière, l'analyse statistique, le raisonnement économique et la recherche en gestion",
