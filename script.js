@@ -36,6 +36,33 @@ if (navToggle && topnavLinks) {
   });
 }
 
+// ---------- language dropdown ----------
+
+const langSwitcher = document.querySelector(".lang-switcher");
+const langCurrent = document.querySelector(".lang-current");
+const langMenu = document.querySelector(".lang-menu");
+
+if (langSwitcher && langCurrent && langMenu) {
+  langCurrent.addEventListener("click", () => {
+    const isOpen = langMenu.classList.toggle("open");
+    langCurrent.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  langMenu.querySelectorAll(".lang-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      langMenu.classList.remove("open");
+      langCurrent.setAttribute("aria-expanded", "false");
+    });
+  });
+  
+  document.addEventListener("click", (event) => {
+    if (!langSwitcher.contains(event.target)) {
+      langMenu.classList.remove("open");
+      langCurrent.setAttribute("aria-expanded", "false");
+    }
+  });
+}
+
 // ---------- nav active-state on scroll ----------
 // No-op on pages without multiple [id] sections (e.g. project pages) — harmless.
 const sections = document.querySelectorAll(".section[id]");

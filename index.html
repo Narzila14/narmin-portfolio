@@ -22,11 +22,22 @@
     <a href="#education" class="nav-link" data-i18n="nav.education">Education</a>
     <a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a>
   </nav>
-  <div class="lang-switcher">
-    <button type="button" class="lang-btn active" data-lang="en">EN</button>
-    <button type="button" class="lang-btn" data-lang="nl">NL</button>
-    <button type="button" class="lang-btn" data-lang="fr">FR</button>
+<div class="lang-switcher">
+  <button
+    type="button"
+    class="lang-current"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+    EN ▾
+  </button>
+
+  <div class="lang-menu">
+    <button type="button" class="lang-btn active" data-lang="en">English</button>
+    <button type="button" class="lang-btn" data-lang="nl">Nederlands</button>
+    <button type="button" class="lang-btn" data-lang="fr">Français</button>
   </div>
+</div>
   <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
 </header>
 

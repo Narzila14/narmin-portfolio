@@ -347,6 +347,12 @@ Object.assign(window.I18N.fr, {
     document.querySelectorAll(".lang-btn").forEach((b) => {
       b.classList.toggle("active", b.dataset.lang === lang);
     });
+
+    const langCurrent = document.querySelector(".lang-current");
+    if (langCurrent) {
+      langCurrent.textContent = `${lang.toUpperCase()} ▾`;
+    }
+
     localStorage.setItem("lang", lang);
     document.dispatchEvent(new CustomEvent("languagechange", { detail: { lang } }));
   }

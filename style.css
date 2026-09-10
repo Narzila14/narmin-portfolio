@@ -91,39 +91,65 @@ a{ color: inherit; }
 .nav-toggle{
   display:none;
   background: transparent;
-  border: 1px solid rgba(237,235,227,0.4);
+  border: none;
   color: #EDEBE3;
-  font-size: 1.1rem;
-  padding: 0.35rem 0.7rem;
+  font-size: 1.5rem;
+  padding: 0.25rem;
   cursor: pointer;
 }
 
 .lang-switcher{
-  display:flex;
-  gap: 0.35rem;
+  position: relative;
   justify-self: end;
-  margin-left: 0;
 }
 
-.lang-btn{
+.lang-current{
   font-family: var(--mono);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   background: transparent;
-  border: 1px solid rgba(237,235,227,0.35);
-  color: #B9B6A9;
-  padding: 0.25rem 0.55rem;
+  border: none;
+  color: #EDEBE3;
+  padding: 0.35rem 0.25rem;
   cursor: pointer;
 }
 
-.lang-btn.active{
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
+.lang-current:hover{
+  color: var(--accent-soft);
 }
 
-.lang-btn:hover:not(.active){
+.lang-menu{
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 130px;
+  background: var(--ink);
+  border: 1px solid rgba(237,235,227,0.18);
+  padding: 0.35rem 0;
+  z-index: 100;
+}
+
+.lang-menu.open{
+  display: block;
+}
+
+.lang-btn{
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  background: transparent;
+  border: none;
+  color: #B9B6A9;
+  padding: 0.55rem 0.8rem;
+  cursor: pointer;
+}
+
+.lang-btn:hover,
+.lang-btn.active{
   color: #fff;
-  border-color: rgba(237,235,227,0.7);
+  background: rgba(255,255,255,0.08);
 }
 
 /* ---------- main ---------- */
@@ -722,7 +748,12 @@ main{
 
 /* ---------- responsive ---------- */
 @media (max-width: 880px){
-  .topnav{ flex-wrap: wrap; padding: 1rem 1.25rem; }
+  .topnav{ 
+    grid-template-columns: 1fr auto auto; 
+    column-gap: 0.75rem; 
+    align-items: center; 
+    padding: 1rem 1.25rem;
+  }
   .topnav-links{
     display:none;
     width:100%;
@@ -731,8 +762,11 @@ main{
     margin-top: 1rem;
   }
   .topnav-links.open{ display:flex; }
-  .nav-toggle{ display:block; }
-  .lang-switcher{ margin-left: 0; margin-top: 0.5rem; }
+  .nav-toggle{ 
+    display:block;
+    justify-self: end; 
+  }
+  .lang-switcher{ margin: 0; }
   main{ padding: 2.5rem 1.25rem; }
   .hero-card{ grid-template-columns: 1fr; }
   .hero-photo{ width: 100%; height: 280px; }
