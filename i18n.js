@@ -18,7 +18,7 @@ Object.assign(window.I18N.en, {
 
   "hero.eyebrow": "Finance · Business Analysis · Data · Sustainability · Business Intelligence",
   "hero.title": "The bridge between the spreadsheet and the decision",
-  "hero.lead": "Completing a Master's in Business Administration, specialising in International and Sustainable Finance at KU Leuven, with experience across financial analysis, reporting and business support. I enjoy working with data and AI tools, understanding what sits behind the numbers, and turning complex information into clear insights that support decision-making.",
+  "hero.lead": "Master's graduate in Business Administration, specialising in International and Sustainable Finance with a side track in Data Sciences at KU Leuven, with experience across financial analysis, reporting and business support. I enjoy working with data and AI tools, understanding what sits behind the numbers, and turning complex information into clear insights that support decision-making.",
   "hero.contact.email": "Email",
   "hero.contact.phone": "Phone",
   "hero.contact.linkedin": "LinkedIn",
@@ -58,7 +58,7 @@ Object.assign(window.I18N.en, {
   "exp3.b4": "Assisted with onboarding and employee-transfer documentation while handling personal and recruitment information confidentially",
 
   "exp4.title": "Personal &amp; Administrative Assistant to the Ambassador",
-  "exp4.meta": "Embassy of the Republic of Azerbaijan in Belgium",
+  "exp4.meta": "Embassy of the Republic of Azerbaijan in Belgium · Jul 2018–Oct 2021",
   "exp4.b1": "Provided administrative and organisational support, managing correspondence, records and confidential documentation in an international diplomatic environment",
   "exp4.b2": "Coordinated meetings, appointments and communication with governmental, diplomatic and business stakeholders, acting as a reliable point of contact",
   "exp4.b3": "Prepared and organised documents, summaries and background information required for meetings, official activities and day-to-day office operations",
@@ -119,7 +119,7 @@ Object.assign(window.I18N.nl, {
 
   "hero.eyebrow": "Finance · Bedrijfsanalyse · Data · Duurzaamheid · Business Intelligence",
   "hero.title": "De brug tussen het rekenblad en de beslissing",
-  "hero.lead": "Ik rond een Master in Business Administration af, met specialisatie International and Sustainable Finance aan de KU Leuven, met ervaring in financiële analyse, rapportering en business support. Ik werk graag met data en AI-tools, doorgrond graag wat achter de cijfers schuilgaat, en vertaal complexe informatie naar heldere inzichten die besluitvorming ondersteunen.",
+  "hero.lead": "Masterafgestudeerde in Bedrijfskunde, met een specialisatie in Internationale en Duurzame Financiering en een neventraject in Data Science aan KU Leuven, met ervaring in financiële analyse, rapportering en bedrijfsondersteuning. Ik werk graag met data en AI-tools, doorgrond graag wat achter de cijfers schuilgaat, en vertaal complexe informatie naar heldere inzichten die besluitvorming ondersteunen.",
   "hero.contact.email": "E-mail",
   "hero.contact.phone": "Telefoon",
   "hero.contact.linkedin": "LinkedIn",
@@ -159,7 +159,7 @@ Object.assign(window.I18N.nl, {
   "exp3.b4": "Assisteerde bij onboarding- en transferdocumentatie van medewerkers, met vertrouwelijke omgang met persoons- en wervingsgegevens",
 
   "exp4.title": "Persoonlijk en administratief assistent van de ambassadeur",
-  "exp4.meta": "Ambassade van de Republiek Azerbeidzjan in België",
+  "exp4.meta": "Ambassade van de Republiek Azerbeidzjan in België · jul 2018–oct 2021",
   "exp4.b1": "Bood administratieve en organisatorische ondersteuning, met beheer van correspondentie, dossiers en vertrouwelijke documentatie binnen een internationale diplomatieke omgeving",
   "exp4.b2": "Coördineerde vergaderingen, afspraken en communicatie met overheids-, diplomatieke en zakelijke stakeholders, als betrouwbaar aanspreekpunt",
   "exp4.b3": "Bereidde documenten, samenvattingen en achtergrondinformatie voor en organiseerde deze voor vergaderingen, officiële activiteiten en de dagelijkse kantoorwerking",
@@ -220,7 +220,7 @@ Object.assign(window.I18N.fr, {
 
   "hero.eyebrow": "Finance · Analyse d'affaires · Données · Durabilité · Business Intelligence",
   "hero.title": "Le pont entre le tableur et la décision",
-  "hero.lead": "Je termine actuellement un Master en Business Administration, spécialisation International and Sustainable Finance à la KU Leuven, avec de l'expérience en analyse financière, reporting et support aux activités commerciales. J'aime travailler avec les données et les outils d'IA, comprendre ce qui se cache derrière les chiffres, et transformer des informations complexes en analyses claires qui soutiennent la prise de décision.",
+  "hero.lead": "Diplômée d’un master en gestion d’entreprise, avec une spécialisation en finance internationale et durable et un parcours complémentaire en data science à la KU Leuven, avec une expérience en analyse financière, reporting et support aux activités de l’entreprise. J'aime travailler avec les données et les outils d'IA, comprendre ce qui se cache derrière les chiffres, et transformer des informations complexes en analyses claires qui soutiennent la prise de décision.",
   "hero.contact.email": "E-mail",
   "hero.contact.phone": "Téléphone",
   "hero.contact.linkedin": "LinkedIn",
@@ -260,7 +260,7 @@ Object.assign(window.I18N.fr, {
   "exp3.b4": "Assistance pour la documentation d'intégration et de mutation des employés, en traitant les informations personnelles et de recrutement de manière confidentielle",
 
   "exp4.title": "Assistante personnelle et administrative de l'Ambassadeur",
-  "exp4.meta": "Ambassade de la République d'Azerbaïdjan en Belgique",
+  "exp4.meta": "Ambassade de la République d'Azerbaïdjan en Belgique · juil. 2018–oct. 2021",
   "exp4.b1": "Soutien administratif et organisationnel, gestion de la correspondance, des dossiers et des documents confidentiels dans un environnement diplomatique international",
   "exp4.b2": "Coordination des réunions, rendez-vous et communications avec des interlocuteurs gouvernementaux, diplomatiques et commerciaux, en tant que point de contact fiable",
   "exp4.b3": "Préparation et organisation de documents, synthèses et informations de contexte nécessaires aux réunions, activités officielles et au fonctionnement quotidien du bureau",
