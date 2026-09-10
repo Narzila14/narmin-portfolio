@@ -61,6 +61,7 @@ demoExampleChips.forEach((chip) => {
 });
 
 updateDemoText();
+document.addEventListener("languagechange", updateDemoText);
 
 // ---------- thesis chart: metric trends ----------
 // Real yearly averages computed from panel_euro.csv (66 Eurozone banks, 2017–2024).

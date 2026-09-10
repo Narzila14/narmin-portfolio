@@ -60,6 +60,7 @@ demoExampleChips.forEach((chip) => {
 });
 
 updateDemoText();
+document.addEventListener("languagechange", updateDemoText);
 
 // ---------- legend hover highlight helper ----------
 function fadeColor(colorStr, alpha) {
