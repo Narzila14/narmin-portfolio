@@ -42,7 +42,7 @@ Object.assign(window.I18N.en, {
   "exp1.b3": "Organised financial data and documentation into clear, structured summaries for internal review",
   "exp1.b4": "Supported day-to-day finance and administrative activities while managing sensitive information accurately, independently and within deadlines",
 
-  "exp2.title": "Marketing Intern",
+  "exp2.title": "Marketing Intern & Student",
   "exp2.meta": "Belixys · Feb–Sep 2023",
   "exp2.b1": "Supported the preparation of marketing and commercial materials, including product information, pricing documents and content used for campaigns and trade-show activities",
   "exp2.b2": "Conducted competitor and market research, comparing products, pricing and positioning to support commercial and marketing decisions",
@@ -143,7 +143,7 @@ Object.assign(window.I18N.nl, {
   "exp1.b3": "Structureerde financiële gegevens en documentatie in heldere, overzichtelijke samenvattingen voor intern gebruik",
   "exp1.b4": "Ondersteunde dagelijkse financiële en administratieve activiteiten en beheerde daarbij gevoelige informatie nauwkeurig, zelfstandig en binnen deadlines",
 
-  "exp2.title": "Marketingstagiair",
+  "exp2.title": "Marketingstagiair en Student",
   "exp2.meta": "Belixys · feb–sep 2023",
   "exp2.b1": "Ondersteunde de voorbereiding van marketing- en commerciële materialen, waaronder productinformatie, prijsdocumenten en content voor campagnes en beursactiviteiten",
   "exp2.b2": "Voerde concurrentie- en marktonderzoek uit, met vergelijking van producten, prijszetting en positionering ter ondersteuning van commerciële en marketingbeslissingen",
@@ -244,7 +244,7 @@ Object.assign(window.I18N.fr, {
   "exp1.b3": "Organisation des données et documents financiers en synthèses claires et structurées pour la revue interne",
   "exp1.b4": "Soutien aux activités financières et administratives quotidiennes tout en gérant des informations sensibles avec précision, de manière autonome et dans les délais",
 
-  "exp2.title": "Stagiaire marketing",
+  "exp2.title": "Stagiaire marketing et étudiante",
   "exp2.meta": "Belixys · févr.–sept. 2023",
   "exp2.b1": "Participation à la préparation de supports marketing et commerciaux, notamment fiches produits, documents tarifaires et contenus pour campagnes et salons professionnels",
   "exp2.b2": "Réalisation d'études concurrentielles et de marché, comparant produits, prix et positionnement pour appuyer les décisions commerciales et marketing",
