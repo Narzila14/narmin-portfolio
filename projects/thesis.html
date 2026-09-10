@@ -35,12 +35,12 @@
 
 <main id="main">
   <section class="section project-page">
-    <a href="index.html" class="back-link">← All projects</a>
-    <p class="eyebrow">A CV tells you what I did. Here's a look at how I think.</p>
-    <h1 class="project-title">Bank Payout Policy: Dividends versus Buybacks</h1>
-    <p class="case-scope">Master's Thesis · 66 Eurozone banks · 64 non-Eurozone banks · fixed-effects panel regression · R Studio</p>
+    <a href="index.html" class="back-link" data-i18n="thesis.back">← All projects</a>
+    <p class="eyebrow" data-i18n="thesis.eyebrow">A CV tells you what I did. Here's a look at how I think.</p>
+    <h1 class="project-title" data-i18n="thesis.title">Bank Payout Policy: Dividends versus Buybacks</h1>
+    <p class="case-scope" data-i18n="thesis.scope">Master's Thesis · 66 Eurozone banks · 64 non-Eurozone banks · fixed-effects panel regression · R Studio</p>
 
-    <p class="case-desc project-intro">
+    <p class="case-desc project-intro" data-i18n="thesis.intro">
       Co-authored with Adam Lamaizi under Prof. Dr. Tamas Vadasz. We tested whether ECB rate hikes
       pushed listed Eurozone banks to favor share buybacks over dividends, and whether that shift
       ran through net interest margin (NIM) and capital strength (CET1). The direct link was weak;
@@ -48,7 +48,7 @@
     </p>
 
     <div class="demo" id="translate-demo">
-      <div class="demo-label">See it in action: real results from my thesis, translated</div>
+      <div class="demo-label" data-i18n="thesis.demolabel">See it in action: real results from my thesis, translated</div>
       <div class="demo-examples" role="tablist" aria-label="Choose a finding">
         <button type="button" class="chip active" data-example="nim">NIM &amp; buybacks</button>
         <button type="button" class="chip" data-example="cet1">Capital buffers</button>
@@ -57,8 +57,8 @@
         <button type="button" class="chip" data-example="bigpicture">Big picture</button>
       </div>
       <div class="demo-toggle" role="group" aria-label="Switch framing">
-        <button type="button" class="demo-btn active" data-mode="raw">The data</button>
-        <button type="button" class="demo-btn" data-mode="plain">In plain English</button>
+        <button type="button" class="demo-btn active" data-mode="raw" data-i18n="thesis.demo.raw">The data</button>
+        <button type="button" class="demo-btn" data-mode="plain" data-i18n="thesis.demo.plain">In plain English</button>
       </div>
       <div class="demo-panel">
         <p class="demo-text" id="demo-text"></p>
@@ -67,53 +67,53 @@
     </div>
 
     <div class="view-tabs" role="tablist" aria-label="Chart selector">
-      <button type="button" class="view-tab active" data-view="trend">Metric trends</button>
-      <button type="button" class="view-tab" data-view="region">Eurozone vs non-Eurozone</button>
-      <button type="button" class="view-tab" data-view="distribution">Payout mix distribution</button>
-      <button type="button" class="view-tab" data-view="groups">High vs low capitalisation</button>
-      <button type="button" class="view-tab" data-view="coefficients">Regression results</button>
+      <button type="button" class="view-tab active" data-view="trend" data-i18n="thesis.tabs.trend">Metric trends</button>
+      <button type="button" class="view-tab" data-view="region" data-i18n="thesis.tabs.region">Eurozone vs non-Eurozone</button>
+      <button type="button" class="view-tab" data-view="distribution" data-i18n="thesis.tabs.distribution">Payout mix distribution</button>
+      <button type="button" class="view-tab" data-view="groups" data-i18n="thesis.tabs.groups">High vs low capitalisation</button>
+      <button type="button" class="view-tab" data-view="coefficients" data-i18n="thesis.tabs.coefficients">Regression results</button>
     </div>
-    <p class="interactive-hint">These charts are interactive. Click a tab above to switch views, and hover over a legend label to highlight that series.</p>
+    <p class="interactive-hint" data-i18n="thesis.hint">These charts are interactive. Click a tab above to switch views, and hover over a legend label to highlight that series.</p>
 
     <div class="chart-view" id="view-trend">
       <div class="chart-controls" role="group" aria-label="Chart metric selector">
         <button type="button" class="chip active" data-metric="nim">NIM</button>
         <button type="button" class="chip" data-metric="cet1">CET1</button>
-        <button type="button" class="chip" data-metric="dividends">Dividends</button>
-        <button type="button" class="chip" data-metric="buybacks">Buybacks</button>
+        <button type="button" class="chip" data-metric="dividends" data-i18n="thesis.metric.dividends">Dividends</button>
+        <button type="button" class="chip" data-metric="buybacks" data-i18n="thesis.metric.buybacks">Buybacks</button>
       </div>
       <div class="chart-wrap">
         <canvas id="thesisChart" height="260" role="img" aria-label="Bank metric over time, before and after ECB tightening"></canvas>
       </div>
-      <p class="chart-note">Sample averages across 66 publicly listed Eurozone banks, 2017–2024. Gold bars mark the post-tightening period (2023–2024).</p>
+      <p class="chart-note" data-i18n="thesis.note.trend">Sample averages across 66 publicly listed Eurozone banks, 2017–2024. Gold bars mark the post-tightening period (2023–2024).</p>
     </div>
 
     <div class="chart-view" id="view-region" hidden>
       <div class="chart-wrap">
         <canvas id="regionChart" height="260" role="img" aria-label="Payout mix over time, Eurozone vs non-Eurozone banks"></canvas>
       </div>
-      <p class="chart-note">Average payout mix (share of payouts via buybacks) for 66 Eurozone vs 64 non-Eurozone banks, 2017–2024.</p>
+      <p class="chart-note" data-i18n="thesis.note.region">Average payout mix (share of payouts via buybacks) for 66 Eurozone vs 64 non-Eurozone banks, 2017–2024.</p>
     </div>
 
     <div class="chart-view" id="view-distribution" hidden>
       <div class="chart-wrap">
         <canvas id="distributionChart" height="260" role="img" aria-label="Distribution of payout mix across monetary policy periods"></canvas>
       </div>
-      <p class="chart-note">Share of Eurozone bank-year observations in each payout-mix range, by period. Most banks sit near the ends, mostly dividends (0–0.2) or mostly buybacks (0.8–1.0), rather than a genuine mix.</p>
+      <p class="chart-note" data-i18n="thesis.note.distribution">Share of Eurozone bank-year observations in each payout-mix range, by period. Most banks sit near the ends, mostly dividends (0–0.2) or mostly buybacks (0.8–1.0), rather than a genuine mix.</p>
     </div>
 
     <div class="chart-view" id="view-groups" hidden>
       <div class="chart-wrap">
         <canvas id="groupsChart" height="260" role="img" aria-label="Average payout mix for high vs low CET1 and NIM banks"></canvas>
       </div>
-      <p class="chart-note">Banks split at the sample median for each metric. Well-capitalised banks lean toward buybacks; high-NIM banks (in this simple split) lean toward dividends. This pattern reverses once time period and bank fixed effects are controlled for.</p>
+      <p class="chart-note" data-i18n="thesis.note.groups">Banks split at the sample median for each metric. Well-capitalised banks lean toward buybacks; high-NIM banks (in this simple split) lean toward dividends. This pattern reverses once time period and bank fixed effects are controlled for.</p>
     </div>
 
     <div class="chart-view" id="view-coefficients" hidden>
       <div class="chart-wrap">
         <canvas id="coefficientsChart" height="260" role="img" aria-label="Regression coefficients from the baseline fixed-effects model"></canvas>
       </div>
-      <p class="chart-note">Driscoll-Kraay coefficients from the baseline fixed-effects regression. The direct effects of NIM and CET1 are small. The story is in how they interact with the post-tightening period.</p>
+      <p class="chart-note" data-i18n="thesis.note.coefficients">Driscoll-Kraay coefficients from the baseline fixed-effects regression. The direct effects of NIM and CET1 are small. The story is in how they interact with the post-tightening period.</p>
     </div>
   </section>
 </main>

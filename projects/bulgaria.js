@@ -1,29 +1,29 @@
 // ---------- data / plain-English translation demo ----------
 const demoFindings = {
   satisfaction: {
-    raw: "Life satisfaction was a significant predictor of happiness at the 1% level. The odds ratio was 1.111, meaning that each one-point increase in life satisfaction was associated with roughly an 11% increase in the odds of being classified as happy.",
-    plain: "People who were more satisfied with their lives were also substantially more likely to describe themselves as happy.",
-    takeaway: "Happiness was strongly connected to how people evaluated their own lives, rather than simply to broader institutional or demographic factors.",
+    raw: "bulgaria.finding.satisfaction.raw",
+    plain: "bulgaria.finding.satisfaction.plain",
+    takeaway: "bulgaria.finding.satisfaction.takeaway",
   },
   relationships: {
-    raw: "Particularised trust (trust in family, neighbours and people personally known to the respondent) was statistically significant at the 1% level. Because the trust scale was reverse-coded, the negative coefficient indicates that greater trust in close social relationships was associated with a higher likelihood of being happy.",
-    plain: "Trusting the people closest to you mattered more for happiness than trusting strangers or political institutions.",
-    takeaway: "Personal relationships appeared to be more closely linked with wellbeing than broader social or institutional trust.",
+    raw: "bulgaria.finding.relationships.raw",
+    plain: "bulgaria.finding.relationships.plain",
+    takeaway: "bulgaria.finding.relationships.takeaway",
   },
   agedu: {
-    raw: "Age was one of the strongest predictors in the model. Respondents aged 15–29 had around 13.8 times the odds of being classified as happy compared with respondents aged 50 and above, while those aged 30–49 had around 1.9 times the odds. Education was also significant: respondents with lower or medium education had lower odds of being happy than those with higher education.",
-    plain: "Younger respondents were considerably more likely to report being happy, while higher education was also associated with greater happiness.",
-    takeaway: "Happiness differed noticeably across life stages, while education also appeared to be associated with subjective wellbeing.",
+    raw: "bulgaria.finding.agedu.raw",
+    plain: "bulgaria.finding.agedu.plain",
+    takeaway: "bulgaria.finding.agedu.takeaway",
   },
   nomatter: {
-    raw: "Generalised trust, national political trust, international political trust and gender were not statistically significant predictors of happiness once the other variables were included in the model.",
-    plain: "Trust in institutions, trust in strangers and gender did not meaningfully distinguish who was more likely to report being happy in this sample.",
-    takeaway: "The strongest relationships were found closer to the individual: personal life satisfaction, close social ties, age and education mattered more than institutional trust.",
+    raw: "bulgaria.finding.nomatter.raw",
+    plain: "bulgaria.finding.nomatter.plain",
+    takeaway: "bulgaria.finding.nomatter.takeaway",
   },
   bigpicture: {
-    raw: "In this Bulgarian sample, happiness was more closely associated with personal life satisfaction and close social relationships than with trust in political institutions. Younger age and higher education were also associated with greater happiness.",
-    plain: "In this Bulgarian sample, happiness was more closely associated with personal life satisfaction and close social relationships than with trust in political institutions. Younger age and higher education were also associated with greater happiness.",
-    takeaway: "This is based on cross-sectional survey data, so these are associations rather than proven causal effects. The model also classifies happy respondents far more accurately (93.4% sensitivity) than unhappy ones, reflecting the 66%/34% imbalance in the sample.",
+    raw: "bulgaria.finding.bigpicture.raw",
+    plain: "bulgaria.finding.bigpicture.plain",
+    takeaway: "bulgaria.finding.bigpicture.takeaway",
   },
 };
 
@@ -36,8 +36,9 @@ let currentMode = "raw";
 
 function updateDemoText() {
   const finding = demoFindings[currentExample];
-  demoText.textContent = finding[currentMode];
-  demoTakeaway.textContent = "What this suggests: " + finding.takeaway;
+  demoText.textContent = window.t(finding[currentMode]);
+  demoTakeaway.textContent =
+    window.t("bulgaria.takeawayPrefix") + window.t(finding.takeaway);
 }
 
 demoButtons.forEach((btn) => {
