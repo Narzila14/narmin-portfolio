@@ -229,8 +229,8 @@ Object.assign(window.I18N.fr, {
   "skip.content": "Aller au contenu",
 
   "hero.eyebrow": "Finance · Analyse d'affaires · Données · Durabilité · Business Intelligence",
-  "hero.title": "Le pont entre le tableur et la décision",
-  "hero.lead": "Diplômée d’un master en gestion d’entreprise, avec une spécialisation en finance internationale et durable et un parcours complémentaire en data science à la KU Leuven, avec une expérience en analyse financière, reporting et support aux activités de l’entreprise. J'aime travailler avec les données et les outils d'IA, comprendre ce qui se cache derrière les chiffres, et transformer des informations complexes en analyses claires qui soutiennent la prise de décision.",
+  "hero.title": "Catalyseur pour transformer vos outils vers les décisions",
+  "hero.lead": "Diplômée d’un master en gestion d’entreprise, avec une spécialisation en finance internationale et durable et un parcours complémentaire en data science à la KU Leuven. J'ai acquis une expérience avec analyse financière, reporting et support aux activités d’entreprise. Passionnée par l'exploitation de l'intelligence artificielle (IA) et de la data, je transforme la complexité des données et des outils en leviers décisionnels clairs.",
   "hero.contact.email": "E-mail",
   "hero.contact.phone": "Téléphone",
   "hero.contact.linkedin": "LinkedIn",
