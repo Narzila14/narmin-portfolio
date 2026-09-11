@@ -229,7 +229,7 @@ Object.assign(window.I18N.fr, {
   "skip.content": "Aller au contenu",
 
   "hero.eyebrow": "Finance · Analyse d'affaires · Données · Durabilité · Business Intelligence",
-  "hero.title": "Catalyseur pour transformer vos outils en les décisions",
+  "hero.title": "Catalyseur pour transformer vos outils en décisions",
   "hero.lead": "Diplômée d’un master en gestion d’entreprise, avec une spécialisation en finance internationale et durable et un parcours complémentaire en data science à la KU Leuven. J'ai acquis une expérience avec analyse financière, reporting et support aux activités d’entreprise. Passionnée par l'exploitation de l'intelligence artificielle (IA) et de la data, je transforme la complexité des données et des outils en leviers décisionnels clairs.",
   "hero.contact.email": "E-mail",
   "hero.contact.phone": "Téléphone",
