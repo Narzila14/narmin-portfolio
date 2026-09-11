@@ -239,7 +239,7 @@ Object.assign(window.I18N.fr, {
   "hero.cta": "Télécharger le CV ↓",
 
   "projects.sectionTitle": "Projets →",
-  "projects.intro": "Un CV dit ce que j'ai fait. Voici un aperçu de ma façon de penser.",
+  "projects.intro": "Le CV décrit mes expériences. Voici un aperçu de mes idées.",
   "projects.thesis.tag": "Mémoire de master",
   "projects.thesis.desc": "Analyse de 66 banques cotées de la zone euro, avec 64 banques hors zone euro comme échantillon de comparaison, à l'aide d'une régression à effets fixes sur ce qui a réellement poussé les banques vers les rachats d'actions dès le début du resserrement monétaire de la BCE, avec une présentation interactive de chaque résultat.",
   "projects.bulgaria.tag": "Projet de recherche de groupe",
